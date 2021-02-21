@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/templatemo-style.css">
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .smart-scroll{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        .scrolled-down{
+            transform:translateY(-100%); transition: all 0.3s ease-in-out;
+        }
+        .scrolled-up{
+            transform:translateY(0); transition: all 0.3s ease-in-out;
+        }
+
+
+        #about{
+            background-image: url("images/aboutus-bg.jpg"); /* The image used */
+            height: 100%; /* You must set a specified height */
+            width: 100%;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+        }
+
+
+
+    </style>
+
+    <title>Mahasmrti Solutions</title>
+</head>
+<body>
+
+
+
+<div class="container-fluid">
+    <div class="row" id = "intro">
+        <nav class="navbar smart-scroll navbar-expand-sm navbar-dark bg-dark">
+            <img src = "images/MS_Logo.PNG" height="250" width="250">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a  href="#intro" style="color: white; background-color: lightskyblue;">HOME</a></li>
+                <li><a  href="#about" style="color: white; background-color: lightskyblue;">ABOUT US</a></li>
+				<li><a  href="#services" style="color: white; background-color: lightskyblue;">PRODUCTS & SERVICES</a></li>
+				<li><a  href="#contact" style="color: white; background-color: lightskyblue;">CONTACT</a></li>
+			</ul>
+            </div> <!-- navbar-collapse.// -->
+        </nav>
+    </div>
+
+
+
+        <div class="divider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="divider-wrapper divider-one">
+                            <i class="fa fa-laptop mt-5" style="font-size:48px;color:white"></i>
+                            <h3>Graphics and Web Designing</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="divider-wrapper divider-two">
+                            <i class="fa fa-cubes mt-5" style="font-size:48px;color:white"></i>
+                            <h3>3D Design and Printing</h3>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="divider-wrapper divider-three">
+                            <i class="fa fa-lightbulb-o mt-5"  style="font-size:48px;color:white"></i>
+                            <h3>Prototypes and Accessories</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <div id = "about" class="col-sm-12 ">
+        <h1>Our Services :</h1>
+        <h3>We offer expertise in designing and developing custom products  tailored as per business or individual needs. </h3>             
+        <div id="demoCarouselMain" class="carousel slide" data-ride="carousel" style = "height: 400px; opacity: 0.7;">
+            <!-- The slideshow -->
+            <div class="carousel-inner ">
+                <div class="carousel-item active">                    
+                    <div class="row d-flex justify-content-center container-fluid" style="height:350px; color: white;">
+                        <h1>Web Design</h1>
+                        <div class = "row d-flex  justify-content-center container-fluid">
+                            <div class = "col-md-10 ">
+                                <p>
+                                Understand client business requirements build websites that cater to
+                                Establishing design guidelines, standards, and best practices.
+                                Altering design plans and presenting the website structure.
+                                Focused on delivering dynamic, feature rich and cross-platform reponsive websites
+                                Provide review based itertaions to ensure positive customer satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="row d-flex  justify-content-center container-fluid" style="height:350px; color: white; ">
+                        <h3>3D Design And Printing</h3>
+                        <div class = "row d-flex  justify-content-center container-fluid">
+                            <div class = "col-md-10 ">
+                                <p>
+                                    We undertake Project works and provision custom solutions
+                                    for education, prototyping, construction, interior design and artworks.                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row d-flex  justify-content-center container-fluid" style="height:350px; color: white; ">
+                        <h3>Custom Accessories</h3>
+                        <div class = "row d-flex  justify-content-center container-fluid">
+                            <div class = "col-md-10 ">
+                                <p>
+                                    Our products are majorly accessories for both individual and business
+                                    Phone cases, mugs, pillows, charm products and custom covers for wallets and water bottles etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row d-flex  justify-content-center container-fluid" style="height:350px; color: white; ">
+                        <h3>Graphics Designing</h3>
+                        <div class = "row d-flex  justify-content-center container-fluid">
+                            <div class = "col-md-10 ">
+                                <p>
+                                    Visualize and design graphics for business and personal needs such as
+                                    Illustrations, Logos, Menu cards, Busines cards,
+                                    Wedding Invitations, Poster, Banners, Flyers,
+                                    websites, books and magazines, product packaging, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+
+            </div> 
+        </div>
+    </div>
+
+    
+
+
+
+    <div id = "services" class="col-sm-12" style=" border : black 1px solid;">
+        <h3>Products and Accessories   </h3>             
+        <div id="demoTrending" class="carousel slide" data-ride="carousel" style = "height: 450px;">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+            <li data-target="#demoTrending" data-slide-to="0" class="active"></li>
+            <li data-target="#demoTrending" data-slide-to="1"></li>
+
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex  justify-content-center" style="height:300px; color: white;">
+                        <div class="col-sm-8 p-1 m-1 border ">
+                            <img src="images/wrapNgo.png">
+                        </div>
+
+                    </div>   
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="d-flex  justify-content-center" style="height:300px; color: white;">
+                        <div class="col-sm-8  p-1 m-1 border ">
+                            <img src="images/wrapNgo2.png">
+                        </div>
+
+                    </div>   
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center" style="height:300px; color: white;">
+                        <div class="col-sm-8  p-1 m-1 border ">
+                            <img src="images/3DCollage.png">
+                        </div>
+
+                    </div>   
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demoTrending" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demoTrending" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div> 
+        </div>
+    </div>
+
+</div>
+
+<!-- footer section -->
+<footer>
+	<div id = "contact" class="container">
+		<div class="row">
+        
+			<div class="col-md-5 col-sm-4">
+				<img src="images/MS_logo.png" class="img-responsive" alt="logo">
+				<p><i class="fa fa-phone"></i> +91 8550837115</p>
+				<p><i class="fa fa-envelope-o"></i> mahasmrtisolutions@gmail.com</p>
+			</div>
+            
+		</div>
+	</div>
+</footer>
+
+<!-- copyright section -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<p>Copyright © 2021 Mahasmrti Solutions</p>
+			</div>
+            <div class="col-md-6 col-sm-6">
+                <p>Website built by Mahasmrti Solutions ©</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+// add padding top to show content behind navbar
+$('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+
+// detect scroll top or down
+if ($('.smart-scroll').length > 0) { // check if element exists
+    var last_scroll_top = 0;
+    $(window).on('scroll', function() {
+        scroll_top = $(this).scrollTop();
+        if(scroll_top < last_scroll_top) {
+            $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+        }
+        else {
+            $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+        }
+        last_scroll_top = scroll_top;
+    });
+}
+
+</script>
+
+</body>
+</html>
